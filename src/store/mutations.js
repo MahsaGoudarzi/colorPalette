@@ -4,5 +4,5 @@ export default {
     },
     editCPalette:(state,payload) => {
         state.palettes[payload.id]=payload
-    }
+    }  
 }
