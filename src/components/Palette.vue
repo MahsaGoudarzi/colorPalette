@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-row>
-			<v-col v-for="palette in palettes" :key="palette.id" class="hi" lg="3" md="1" sm="1" xl="3" cols="12" align="center">
+			<v-col v-for="palette in palettes" :key="palette.id" class="hi" lg="3" md="6" sm="12" xl="3" cols="12" align="center">
 				<v-card>
                     <v-card-text v-for="color in palette.colors" :key="color" :style="{ 'background-color': color }">
                         <v-tooltip left>
